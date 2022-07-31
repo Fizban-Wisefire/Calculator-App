@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+}
+
+.calc{
+    background-color: oldlace;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40vw;
+    width: 30vw;
+    margin-top: 10%;
+    display: grid;
+    justify-content: center;
+}
+
+#output{
+    font-size: 4vw;
+    color: rgb(91, 101, 111);
+    align-self: center;
+    height: 5vw;
+    width: 24vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    justify-content: right;
+}
+
+.btn-layout{
+    display: grid;
+    grid-template-columns: 6vw 6vw 6vw 6vw;
+    grid-template-rows: 5vw 5vw 5vw 5vw 5vw 5vw;
+}
+
+button{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50px;
+    justify-self: center;
+}
+
+.bs-btn{
+    column-span: 1 / 3;
+}
+
+.equal-btn{
+    column-span: 3 / 5;
+}
+
+.plus-btn{
+    column-span: 5 / 7;
+}
+
+.blue{
+    background-color: rgb(200, 229, 234);
+}
+
+.blue:active{
+    transform: scale(95%);
+}
+
+.purple{
+    background-color: rgb(221, 202, 238);
+}
+
+.purple:active{
+    transform: scale(95%);
+}
